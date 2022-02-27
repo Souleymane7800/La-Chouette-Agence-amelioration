@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +14,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -99,8 +103,19 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
+.d-bloc{
+    color: #000000;
+}
+.col-sm-4 {
+    color: #000000;
+    text-align: center;
+}
+
+
+li,a {
+    color: #000000;
+    list-style: none;
+    text-decoration: inherit;
 }
 
 .d-bloc button:hover {
@@ -319,6 +334,7 @@ a:hover {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
+    list-style: none;
     z-index: 1;
 }
 
@@ -326,10 +342,12 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+
 }
 
 .nav > li a:hover,
@@ -477,6 +495,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #000000;
 }
 
 .icon-lg {
@@ -508,8 +527,18 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 96%;
+    height: 30px;
 }
-
+#form_1 {
+    width: 80%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+ #message {
+    height: auto;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -658,8 +687,10 @@ a {
     max-width: 1000px;
 }
 
+
 .hero-bloc-text {
     font-size: 38px;
+
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +708,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +723,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #ffffff!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -738,7 +769,10 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.text-center,q {
+    color: #575757!important;
+    
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -777,10 +811,13 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
-
+.new-color {
+    color: #333333!important;
+    text-align: center;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
