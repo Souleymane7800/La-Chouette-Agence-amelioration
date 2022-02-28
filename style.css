@@ -51,7 +51,14 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
-
+/* Ajout code */
+#bloc-6 {
+    display: flex;
+    justify-content: center;
+}
+#bloc-0 {
+    width: 90%;
+}
 .bloc-md {
     padding: 50px;
 }
@@ -110,10 +117,15 @@ a:hover {
     color: #000000;
     text-align: center;
 }
-
-
+.col-sm-12 {
+    text-align: center;
+    
+}
+#contact .col-sm-12 h1 {
+    color: #000000!important;
+}
 li,a {
-    color: #000000;
+    color: #000000!important;
     list-style: none;
     text-decoration: inherit;
 }
@@ -495,7 +507,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: #000000;
+    /* color: #000000; */
 }
 
 .icon-lg {
@@ -690,6 +702,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: #000000!important;
 
 }
 
@@ -733,6 +746,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
 
 h2 {
@@ -814,6 +828,8 @@ h4 {
 .new-color {
     color: #333333!important;
     text-align: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 .btn-atomic-tangerine {
     background: #F3976C;
