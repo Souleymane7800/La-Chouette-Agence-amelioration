@@ -827,6 +827,11 @@ h4 {
     margin-bottom: 24px;
 }
 
+.bloc-4-portfolio img {
+    width: 270px;
+    height: auto;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -911,7 +916,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
