@@ -56,6 +56,9 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+#contact .fa-chevron-up::before {
+    content: "\f077";
+}
 #bloc-8 {
     display: flex;
     justify-content: center;
@@ -509,7 +512,7 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
+#contact .btn-d,
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
@@ -576,7 +579,7 @@ button {
  #message {
     height: auto;
 }
-.scrollToTop {
+.scrollToTop, #contact .scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
