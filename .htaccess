@@ -1,0 +1,10 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://souleymane7800.github.io/La-Chouette-Agence-amelioration/index.html[nc]
+RewriteRule ^(.*)$ http://www.https://souleymane7800.github.io/La-Chouette-Agence-amelioration/index.html/$1 [r=301,nc]
+
+//Caching schema
+<FilesMatch "\.(jpg|webp|css|js)$">
+Header set Cache-Control "public, max-age=9642240000"
+</FilesMatch>

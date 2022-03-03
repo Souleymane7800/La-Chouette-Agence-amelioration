@@ -56,9 +56,9 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-#contact .fa-chevron-up::before {
+/* #contact .fa-chevron-up::before {
     content: "\f077";
-}
+} */
 #bloc-8 {
     display: flex;
     justify-content: center;
@@ -142,9 +142,9 @@ q{
 .col-sm-12 {
     text-align: center;
 }
-#contact .col-sm-12 h1 {
+/* #contact .col-sm-12 h1 {
     color: #000000!important;
-}
+} */
 li,a {
     color: #000000!important;
     list-style: none;
@@ -512,7 +512,7 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-#contact .btn-d,
+/* #contact .btn-d, */
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
@@ -733,9 +733,9 @@ a {
     color: #000000!important;
 
 }
-#contact .hero-bloc-text {
+/* #contact .hero-bloc-text {
     font-size: 38px;
-}
+} */
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -781,9 +781,9 @@ p {
 .social a span::before {
     color: #575353;
 }
-#contact .social a span::before {
+/* #contact .social a span::before {
     color: #575353;
-}
+} */
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -1059,7 +1059,7 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    .nav-invert .navbar-header, #contact .navbar-header {
+    .nav-invert .navbar-header{
         float: none;
         width: 100%;
     }
