@@ -819,7 +819,7 @@ h4 {
     color: #FFFFFF!important;
 }
 .text-center {
-    color: #474646!important;
+    color: #1f1f1f!important;
     font-size: 18px;
     
 }
@@ -866,12 +866,7 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
-.new-color {
-    color: #333333!important;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: black!important;
