@@ -141,12 +141,13 @@ q{
 .col-sm-4 ul {
     padding-left: 0;
 }
+.col-sm-4 ul li {
+    padding: 8px;
+}
 .col-sm-12 {
     text-align: center;
 }
-/* #contact .col-sm-12 h1 {
-    color: #000000!important;
-} */
+
 li,a {
     color: #000000!important;
     list-style: none;
