@@ -751,7 +751,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -1122,6 +1122,9 @@ h4 {
     .portfolio-thumb img {
         width: 100%;
         height: 300px;
+    }
+    .navbar {
+        width: max-content;
     }
 }
 
